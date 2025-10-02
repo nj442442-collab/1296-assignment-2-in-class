@@ -24,10 +24,12 @@ player_scores = []
 score_total = 0
 for player in players:
     player_scores.append(player[1])
+    #add all the scores together
     score_total += player[1]
 average_score = score_total / len(player_scores)
-print(score_total)
-print(player_scores)
+
+#print(score_total)
+#print(player_scores)
 
 #find the average
 #add all the scores together 
@@ -40,3 +42,4 @@ print(f"Players: {len(player)}")
 print(f"Highest: {None}") # Sally - 95
 print(f"Lowest: {None}") # Zainab - 5
 print(f"Average: {average_score}")
+
