@@ -11,6 +11,10 @@ Enter player name (or "done"): done
 #store players as a list 
 player=[("Sally",95),("Tobi",88),("Sandeep",10),("Zainab",5)]
 
+# setup variable to store summary values
+highest_score_player = (None,0)
+lowest_score_player = (None,0)
+average_score = 0
 
 #output player summary
 print("===summary===")
