@@ -9,12 +9,12 @@ Enter score for Cara: 88
 Enter player name (or "done"): done
 """
 #store players as a list 
-player=[("sally",95)]
+player=[("Sally",95),("Tobi",88),("Sandeep",10),("Zainab",5)]
 
 
 #output player summary
 print("===summary===")
-print(f"Players: {None}")
-print(f"Highest: {None}")
-print(f"Lowest: {None}")
+print(f"Players: {len(player)}")
+print(f"Highest: {None}") # Sally - 95
+print(f"Lowest: {None}") # Zainab - 5
 print(f"Average: {None}")
