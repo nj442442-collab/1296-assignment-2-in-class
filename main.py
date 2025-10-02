@@ -9,7 +9,7 @@ Enter score for Cara: 88
 Enter player name (or "done"): done
 """
 #store players as a list 
-player=[]
+player=[("sally",95)]
 
 
 #output player summary
